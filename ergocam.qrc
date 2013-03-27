@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/ErgoCam">
+        <file>Resources/green.png</file>
+        <file>Resources/red.png</file>
+    </qresource>
+</RCC>
