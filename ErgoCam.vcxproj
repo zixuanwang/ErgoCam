@@ -75,8 +75,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="action.cpp" />
     <ClCompile Include="ergocam.cpp" />
     <ClCompile Include="face_feature.cpp" />
+    <ClCompile Include="feature_vector.cpp" />
     <ClCompile Include="GeneratedFiles\Debug\moc_ergocam.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -89,10 +91,15 @@
     <ClCompile Include="GeneratedFiles\Release\moc_ergocam.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="generative_model.cpp" />
     <ClCompile Include="histogram.cpp" />
     <ClCompile Include="KinectHelper.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="OpenCVFrameHelper.cpp" />
+    <ClCompile Include="point.cpp" />
+    <ClCompile Include="pomdp.cpp" />
+    <ClCompile Include="simple_model.cpp" />
+    <ClCompile Include="state.cpp" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="ergocam.h">
@@ -120,11 +127,19 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="action.h" />
     <ClInclude Include="face_feature.h" />
+    <ClInclude Include="feature_vector.h" />
     <ClInclude Include="GeneratedFiles\ui_ergocam.h" />
+    <ClInclude Include="generative_model.h" />
     <ClInclude Include="histogram.h" />
     <ClInclude Include="KinectHelper.h" />
     <ClInclude Include="OpenCVFrameHelper.h" />
+    <ClInclude Include="point.h" />
+    <ClInclude Include="pomdp.h" />
+    <ClInclude Include="simple_model.h" />
+    <ClInclude Include="state.h" />
+    <ClInclude Include="test.h" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="ergocam.qrc">
